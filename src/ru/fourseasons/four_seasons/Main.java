@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите месяц! ");
-
+       // String[] str = {Январь,};
         int month = scanner.nextInt();
         String seasons;
 
@@ -24,6 +24,6 @@ public class Main {
         else
             seasons = "вымышленным месяцем";
 
-        System.out.println("Сейчс "+month+" месяц,"+ " сезон "+seasons);
+        System.out.println("Сейчас "+month+"-й месяц,"+ "время года "+seasons);
     }
 }
